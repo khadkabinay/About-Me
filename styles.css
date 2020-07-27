@@ -1,195 +1,214 @@
 
-/*general style for body */
-body{
-    padding: 10px;
-    margin: 0 auto;
-    text-align: center;
-    color: #fff;
-    background: linear-gradient(bottom , #63624b,#a3a28b);
-    background: -webkit-linear-gradient(bottom , #63624b,#a3a28b);
-    background: -moz-linear-gradient(bottom , #63624b,#a3a28b);
-}
+        /*general style for body */
+        body{
+            padding: 10px;
+            margin: 0 auto;
+            text-align: center;
+            color: #fff;
+            background: linear-gradient(bottom , #63624b,#a3a28b);
+            background: -webkit-linear-gradient(bottom , #63624b,#a3a28b);
+            background: -moz-linear-gradient(bottom , #63624b,#a3a28b);
+        }
 
 
-/* header  */
-header{
-    background: #91927b;
-    height: 100px;
-    
-}
+        /* header  */
+        header{
+            background: #91927b;
+            height: 100px;
+            list-style: none;
+            
+        }
 
-/* about me */
-
-#about{
-    background: url("https://images.pexels.com/photos/907489/pexels-photo-907489.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=400");
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0 5px 10px 0 #454745;
-}
-
-
-#about  h2{
-    color: #fff;
-    background: rgba(0,0,0,0.4);
-
-
-}
+        .addDate{
+            text-align: end;
+            margin-right: 30px;
+            font-size: 18px;
+        color: blue;
+        
+        }
 
 
 
-article{
-  color: #000;
-   background-color: #fff;
-   padding: 15px;
-   border-radius: 10px 10px 0 0;
-}
+        /* about me */
+
+        #about{
+            background: url("https://images.pexels.com/photos/907489/pexels-photo-907489.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=400");
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0 5px 10px 0 #454745;
+        }
 
 
-ul{
- display: flex;
-justify-content: flex-start;
-padding: 30px 50px 0 0;
-list-style: none;
-font-size: 25px;
-font-family: 'Courgette', cursive;
+        #about  h2{
+            color: #fff;
+            background: rgba(0,0,0,0.4);
 
 
- 
-}
-ul li{
- margin-left: 20px;
- 
-}
-
-ul li a {
-text-decoration: none;
-color: #fff;
-
-}
-a:hover{
-    color: #00f;
-}
-
-h1{
-    font-size: 30px;
-    color: #000;
-    font-family: 'Orbitron', sans-serif;
-   
-    
-}
-
- #about img{
- width: 200px;
- border-radius: 50%;
- z-index: 3;
-
-
-}
-
-.project-items{
-    display: flex;
-    justify-content: center;
-   
- 
-
-}
-
-
-.project-items div{
- width: 30%;
- background: #808080;
- margin-right: 10px;
- padding: 10px;
-overflow-wrap: break-word;
-box-shadow: 0 5px 10px 0 #454745;
-border-radius: 10px 10px 0 0;
- 
- 
-}
-
-.add{
- border: 1px solid red;
- 
-}
+        }
 
 
 
-.project-items div a{
-    list-style: none;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-  .dis-none {
-    display: none;
-   
-   }
+        article{
+        color: #000;
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 10px 10px 0 0;
+        font-family: 'Prata', serif;
+        }
 
 
-.contact{
-    background-color: #525046;
-    color: #fff;
-    box-shadow: 0 5px 10px 0 #454745;
-}
-.contact-item{
-
-    display: flex;
-    justify-content: space-between;
-    padding: 0 30px 0 30px;
-    font-size: 20px;
-    color: black;
-  
-    
-
-}
-
-.contact-item div a {
-    margin-left: 10px;
-    color: #fff;
-    text-decoration: none;
-  
-    
-
-}
-
-.contact-item div a:hover{
-
-    color: blue;
-}
-
-
-
-/* media query for small screen */
-
-@media(max-width:600px){
-    header{
-        background: #91927b;
-     }
-
-     
-    .project-items{
+        ul{
         display: flex;
-        flex-direction: column;
-    
-    }
+        justify-content: flex-start;
+        padding: 30px 50px 0 0;
+        list-style: none;
+        font-size: 25px;
+        font-family: 'Courgette', cursive;
 
-    .project-items div{
-        width: 95%;
+
+        
+        }
+        ul li{
+        margin-left: 20px;
+        
+        }
+
+        ul li a {
+        text-decoration: none;
+        color: #fff;
+
+        }
+        a:hover{
+            color: #00f;
+        }
+
+        h1{
+            font-size: 30px;
+            color: #000;
+            font-family: 'Orbitron', sans-serif;
+        
+            
+        }
+
+        #about img{
+        width: 200px;
+        border-radius: 50%;
+        z-index: 3;
+
+
+        }
+
+        .project-items{
+            display: flex;
+            justify-content: center;
+        
+        
+
+        }
+
+
+        .project-items div{
+        width: 30%;
+        background: #808080;
+        margin-right: 10px;
         padding: 10px;
-        margin-top: 20px;
-     }
-
-
-
-     .contact-item{
-
-        display: flex;
-        flex-direction: column;
-      
+        overflow-wrap: break-word;
+        box-shadow: 0 5px 10px 0 #454745;
+        border-radius: 10px 10px 0 0;
         
-      
         
-    
-    }
+        }
 
-}
+        .add{
+        border: 1px solid red;
+        
+        }
+
+
+
+        .project-items div a{
+            list-style: none;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .dis-none {
+            display: none;
+        
+        }
+
+
+        .contact{
+            background-color: #525046;
+            color: #fff;
+            box-shadow: 0 5px 10px 0 #454745;
+        }
+        .contact-item{
+
+            display: flex;
+            justify-content: space-between;
+            padding: 0 30px 0 30px;
+            font-size: 20px;
+            color: black;
+        
+            
+
+        }
+
+        .contact-item div a {
+            margin-left: 10px;
+            color: #fff;
+            text-decoration: none;
+        
+            
+
+        }
+
+        .contact-item div a:hover{
+
+            color: blue;
+        }
+
+        #email {
+            color: white;
+            font-weight: bold;
+        }
+
+
+
+
+
+        /* media query for small screen */
+
+        @media(max-width:600px){
+            header{
+                background: #91927b;
+            }
+
+            
+            .project-items{
+                display: flex;
+                flex-direction: column;
+            
+            }
+
+            .project-items div{
+                width: 95%;
+                padding: 10px;
+                margin-top: 20px;
+            }
+
+
+
+            .contact-item{
+
+                display: flex;
+                flex-direction: column;
+            
+                
+        }
+        ul{
+            font-size: 18px;
+        }
+
+        }
