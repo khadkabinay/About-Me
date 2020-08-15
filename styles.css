@@ -36,6 +36,7 @@
             background-size: cover;
             background-position: center;
             box-shadow: 0 5px 10px 0 #454745;
+          
         }
 
 
@@ -45,6 +46,13 @@
 
 
         }
+
+
+        h4 {
+            animation: greeting 3s linear 1s 1;
+        
+        }
+
 
 
 
@@ -91,6 +99,7 @@
         }
 
         #about img{
+    
         width: 200px;
         border-radius: 50%;
         z-index: 3;
@@ -177,6 +186,39 @@
 
 
 
+
+
+
+
+
+        @keyframes greeting {
+            0% {
+              
+               font-size: 0px;
+         
+             }
+         25%{
+           
+             font-size: 2px;
+         
+         }
+          50%{
+             
+              font-size: 5px;
+          }
+         
+          75%{
+             
+             font-size: 7px;
+            
+          }
+         
+          100%{
+             
+              font-size: 10px;
+              
+          }
+         }
 
 
         /* media query for small screen */

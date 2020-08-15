@@ -73,7 +73,7 @@
         
           if(greetElement.textContent === "Good Morning !"){
             greetElement.style.color = greetedColors[0]
-              dateElement.style.color = greetedColors[0]
+            dateElement.style.color = greetedColors[0]
 
             
 
