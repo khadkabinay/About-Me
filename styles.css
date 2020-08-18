@@ -49,7 +49,7 @@
 
 
         h4 {
-            animation: greeting 3s linear 1s 1;
+            animation: greeting 2s linear 1s 1;
         
         }
 
@@ -176,7 +176,7 @@
 
         .contact-item div a:hover{
 
-            color: blue;
+            color: #0000ff;
         }
 
         #email {
